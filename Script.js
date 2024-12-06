@@ -2,7 +2,7 @@ const checkboxInput = document.querySelector('input[type="checkbox"]');
 
 const textFields = document.querySelectorAll('input[type="text"]');
 
-const submitButton = document.querySelector('button');
+const eraseButton = document.querySelector('button');
 
 const emptyDiv = document.querySelector('div');
 
@@ -32,6 +32,6 @@ checkboxInput.addEventListener("change", () => {
 });
 
 //eventlyssnaren för knappen
-submitButton.addEventListener("click", () => {
+eraseButton.addEventListener("click", () => {
     emptyDiv.style.display = "home"; //gömmer div elementet
 });
